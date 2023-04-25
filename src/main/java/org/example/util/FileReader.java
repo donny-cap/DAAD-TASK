@@ -60,7 +60,7 @@ public class FileReader {
     public static Set<Map<String, List<String>>> readLinesFromFiles() throws IOException {
         Set<Map<String, List<String>>> lines = new HashSet<>();
 
-        File dir = new File("lines");
+        File dir = new File("lines2");
         File [] files = dir.listFiles(new FilenameFilter() {
             @Override
             public boolean accept(File dir, String name) {
